@@ -2,7 +2,7 @@
 
 // array vuoto
 var numeri = [];
-// chiedere per 6 volte all’utente di inserire il numero e se è dispari 
+// chiedere per 6 volte all’utente di inserire il numero e se è dispari inserirlo nell'array
 for ( var i = 0; i < 6; i++ ) {
    var numeroscelto = parseInt(prompt("Inserisci un numero"));
    if (numeroscelto % 2 == 0) {
